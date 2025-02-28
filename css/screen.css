@@ -255,7 +255,7 @@ button {
   width: 100%;
   padding: 12px;
   font-size: 1rem;
-  background: #666;
+  background: #565656;
   color: white;
   border: none;
   border-radius: 6px;
@@ -264,7 +264,7 @@ button {
 }
 
 button:hover {
-  background: #444;
+  background: #565656;
 }
 
 @media (max-width: 480px) {
