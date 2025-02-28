@@ -243,6 +243,22 @@ label {
 
 }
 
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background: #666;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #444;
+}
+
 /* ===== LAYOUT STYLES ====== */
 
 
