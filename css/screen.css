@@ -216,8 +216,31 @@ form {
   border-radius: 8px;
 }
 
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: background 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  background: #e6e6e6;
+  box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 label {
   display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+
 }
 
 /* ===== LAYOUT STYLES ====== */
